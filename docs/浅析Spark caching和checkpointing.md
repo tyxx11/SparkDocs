@@ -2,6 +2,8 @@
 
 #### by [谭杨@MapLeap](https://github.com/tyxx11)
 
+![Mou](https://github.com/tyxx11/SparkDocs/blob/master/docs/spark-logo-trademark.png)
+
 ###摘要
 作为一个Apache Spark应用开发人员，内存管理是最重要的人物之一，但cacheing和checkpointing之间的差异可能会导致混乱。这2种操作是都是用来防止rdd(弹性分布式数据集)每次被引用时被重复计算带来的时间和空间上不必要的损失。然而他们之间的区别是什么呢？
 
@@ -93,6 +95,7 @@ cache 机制是每计算出一个要 cache 的 partition 就直接将其 cache �
 
 ###关键词
 Spark,大数据,分布式,Spark Streaming
+
 语言：java, scala
 
 
